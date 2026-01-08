@@ -137,7 +137,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, cartCount 
               className="w-full flex items-center gap-3 p-4 rounded-2xl bg-igo-dark text-white font-bold mt-8 shadow-xl"
             >
               <Zap className="w-4 h-4 text-igo-lime" />
-              <span className="uppercase tracking-widest text-sm">Garden Assistant</span>
+              <span className="uppercase tracking-widest text-sm"></span>
             </button>
           </nav>
 
