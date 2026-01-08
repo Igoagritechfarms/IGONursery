@@ -79,7 +79,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-center gap-3 hover:text-igo-lime transition-colors cursor-pointer">
                 <Mail className="w-5 h-5 text-igo-lime" />
-                <span>hello@igonursery.com</span>
+                <span>igoagritechfarms@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 hover:text-igo-lime transition-colors cursor-pointer">
                 <Phone className="w-5 h-5 text-igo-lime" />
@@ -99,7 +99,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
         </div>
 
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 uppercase tracking-widest font-bold">
-          <div>© 2024 IGO AGRI TECHFARMS PVT LTD. ALL RIGHTS RESERVED.</div>
+          <div>© 2025 IGO AGRI TECHFARMS PVT LTD. ALL RIGHTS RESERVED.</div>
           <div className="flex gap-8">
             <button onClick={handleNav(Page.Home)} className="hover:text-white transition-colors">Privacy Policy</button>
             <button onClick={handleNav(Page.Home)} className="hover:text-white transition-colors">Terms of Service</button>
