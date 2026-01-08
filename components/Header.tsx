@@ -142,8 +142,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, cartCount 
           </nav>
 
           <div className="border-t pt-8">
-            <div className="text-[10px] font-black text-igo-muted uppercase tracking-[0.2em] mb-4">Muttukadu Headquarters</div>
-            <p className="text-sm text-gray-500 mb-6">ECR Road, Muttukadu, Chennai 603112</p>
+            <div className="text-[10px] font-black text-igo-muted uppercase tracking-[0.2em] mb-4"></div>
+            <p className="text-sm text-gray-500 mb-6">No 17 , Kovalan street, 2nd main road, Uthandi kanathur, Chennai 600119.</p>
             <button 
                 onClick={() => handleNav(Page.Visit)}
                 className="text-igo-dark font-black uppercase text-xs tracking-widest border-b-2 border-igo-lime pb-1"
