@@ -24,7 +24,7 @@ const Home: React.FC = () => {
             <div className="space-y-8">
               <div className="inline-flex items-center gap-3 bg-white/5 border border-white/10 px-4 py-2 rounded-full backdrop-blur-md">
                 <div className="w-2 h-2 bg-igo-lime rounded-full animate-ping"></div>
-                <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-igo-lime">Muttukadu Lab Online</span>
+                <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-igo-lime">IGO Nursery</span>
               </div>
               
               <h1 className="text-6xl md:text-8xl font-black text-white leading-[0.9] tracking-tighter">
