@@ -60,7 +60,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-igo-lime mt-1" />
-                <span>ECR, Muttukadu, Chennai, Tamil Nadu 603112</span>
+                <span>No 17 , Kovalan street, 2nd main road, Uthandi kanathur, Chennai 600119.</span>
               </li>
               <li>
                 <div className="font-bold text-white mb-1">Mon - Sat</div>
