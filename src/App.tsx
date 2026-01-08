@@ -1,16 +1,16 @@
+import React, { useState, useEffect } from "react";
+import { Page } from "./types";
 
-import React, { useState, useEffect } from 'react';
-import { Page } from './types';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Shop from './pages/Shop';
-import GardenAssistant from './pages/GardenAssistant';
-import Landscape from './pages/Landscape';
-import AMC from './pages/AMC';
-import Lab from './pages/Lab';
-import KnowledgeHub from './pages/KnowledgeHub';
-import Visit from './pages/Visit';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import Shop from "./pages/Shop";
+import GardenAssistant from "./pages/GardenAssistant";
+import Landscape from "./pages/Landscape";
+import AMC from "./pages/AMC";
+import Lab from "./pages/Lab";
+import KnowledgeHub from "./pages/KnowledgeHub";
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>(Page.Home);
