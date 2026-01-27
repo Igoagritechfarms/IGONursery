@@ -56,7 +56,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
 
           {/* Business Hours */}
           <div>
-            <h4 className="text-lg font-bold mb-8 text-igo-lime uppercase tracking-widest text-xs">Campus Visit</h4>
+            <h4 className="text-lg font-bold mb-8 text-igo-lime uppercase tracking-widest text-xs">Campu</h4>
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-igo-lime mt-1" />
