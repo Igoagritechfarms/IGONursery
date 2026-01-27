@@ -55,7 +55,7 @@ const Shop: React.FC<ShopProps> = ({ addToCart }) => {
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden bg-gray-100 mb-4">
                 <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 <div className="absolute top-4 left-4 flex gap-2">
-                    <span className="bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">{product.maintenance} Care</span>
+                    <span className="bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">{product.maintenance} Careee</span>
                 </div>
                 <button 
                   onClick={(e) => { e.stopPropagation(); addToCart(); }}
