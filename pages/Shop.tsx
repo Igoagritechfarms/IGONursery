@@ -4,7 +4,7 @@ import { Filter, ShoppingBag, Star, ShieldCheck, Truck, RotateCcw } from 'lucide
 import { Product } from '../types';
 
 const MOCK_PRODUCTS: Product[] = [
-  { id: '1', name: 'Monstera Deliciosa', price: 1450, category: 'Indoor', image: './public/images/indoor/monstera.png', maintenance: 'Medium', light: 'Indirect', description: 'Classic Swiss Cheese Plant, grown in climate-controlled polyhouses for superior leaf health.' },
+  { id: '1', name: 'Monstera Deliciosa', price: 1450, category: 'Indoor', image: '/antigravity/public/images/indoor/monstera.png', maintenance: 'Medium', light: 'Indirect', description: 'Classic Swiss Cheese Plant, grown in climate-controlled polyhouses for superior leaf health.' },
   { id: '2', name: 'Fiddle Leaf Fig', price: 2800, category: 'Indoor', image: 'https://images.unsplash.com/photo-1597055181300-e3633a207518?auto=format&fit=crop&q=80&w=400', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '3', name: 'Zamioculcas Zamiifolia (ZZ)', price: 850, category: 'Indoor', image: 'https://images.unsplash.com/photo-1632207691143-643e2a9a9361?auto=format&fit=crop&q=80&w=400', maintenance: 'Low', light: 'Shade', description: 'The indestructible office plant. Ultra-low water requirements.' },
   { id: '4', name: 'Areca Palm (Large)', price: 1200, category: 'Outdoor', image: 'https://images.unsplash.com/photo-1584622781564-1d9876a13d00?auto=format&fit=crop&q=80&w=400', maintenance: 'Medium', light: 'Direct', description: 'Natural air purifier. Perfect for screening and creating privacy.' },
