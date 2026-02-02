@@ -16,7 +16,7 @@ const MOCK_PRODUCTS: Product[] = [
 },
   { id: '2', name: 'Fiddle Leaf Fig', price: 2800, category: 'Indoor', image: '/images/indoor/Fiddle Leaf Fig.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '3', name: 'Zamioculcas Zamiifolia (ZZ)', price: 850, category: 'Indoor', image: 'https://images.unsplash.com/photo-1632207691143-643e2a9a9361?auto=format&fit=crop&q=80&w=400', maintenance: 'Low', light: 'Shade', description: 'The indestructible office plant. Ultra-low water requirements.' },
-  { id: '4', name: 'Areca Palm (Large)', price: 1200, category: 'Outdoor', image: 'https://images.unsplash.com/photo-1584622781564-1d9876a13d00?auto=format&fit=crop&q=80&w=400', maintenance: 'Medium', light: 'Direct', description: 'Natural air purifier. Perfect for screening and creating privacy.' },
+  { id: '4', name: 'Areca Palm (Large)', price: 1200, category: 'Outdoor', image: '/images/indoor/Areca_Palm.webp', maintenance: 'Medium', light: 'Direct', description: 'Natural air purifier. Perfect for screening and creating privacy.' },
   { id: '5', name: 'Snake Plant Futura', price: 650, category: 'Indoor', image: 'https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&q=80&w=400', maintenance: 'Low', light: 'Shade', description: 'Hardy air purifier that releases oxygen at night.' },
   { id: '6', name: 'Birds of Paradise', price: 3500, category: 'Landscape', image: 'https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&q=80&w=400', maintenance: 'Medium', light: 'Direct', description: 'Stunning tropical flowers. Ideal for resort-style home gardens.' }
 ];
