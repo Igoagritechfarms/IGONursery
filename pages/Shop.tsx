@@ -27,6 +27,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '12', name: 'Spider Plant ', price: 2800, category: 'Indoor', image: '/images/indoor/Spider_Plant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '13', name: 'Chinese Evergreen', price: 2800, category: 'Indoor', image: '/images/indoor/Chinese_Evergreen.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '14', name: 'Peace Lily', price: 2800, category: 'Indoor', image: '/images/indoor/Peace_Lily.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '15', name: 'Anthurium', price: 2800, category: 'Indoor', image: '/images/indoor/Anthurium.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
