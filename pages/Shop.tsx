@@ -29,7 +29,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '14', name: 'Peace Lily', price: 2800, category: 'Indoor', image: '/images/indoor/Peace_Lily.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '15', name: 'Anthurium', price: 2800, category: 'Indoor', image: '/images/indoor/Anthurium.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '16', name: 'Calathea', price: 2800, category: 'Indoor', image: '/images/indoor/Calathea.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
- { id: '17', name: 'Fiddle Leaf Fig ', price: 2800, category: 'Indoor', image: '/images/indoor/Fiddle.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '17', name: 'Fiddle Leaf Fig ', price: 2800, category: 'Indoor', image: '/images/indoor/Fiddle.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
