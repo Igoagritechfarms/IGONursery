@@ -19,7 +19,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '4', name: 'Areca Palm (Large)', price: 1200, category: 'Outdoor', image: '/images/indoor/Areca_Palm.webp', maintenance: 'Medium', light: 'Direct', description: 'Natural air purifier. Perfect for screening and creating privacy.' },
   { id: '5', name: 'Snake Plant Futura', price: 650, category: 'Indoor', image: 'https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&q=80&w=400', maintenance: 'Low', light: 'Shade', description: 'Hardy air purifier that releases oxygen at night.' },
   { id: '6', name: 'Birds of Paradise', price: 3500, category: 'Landscape', image: 'https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&q=80&w=400', maintenance: 'Medium', light: 'Direct', description: 'Stunning tropical flowers. Ideal for resort-style home gardens.' },
-  { id: '7', name: 'ZZ Plant', price: 2800, category: 'Indoor', image: '/images/indoor/Snake_Plant.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '7', name: 'ZZ Plant', price: 2800, category: 'Indoor', image: '/images/indoor/Money_Plant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
