@@ -35,7 +35,8 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '20', name: 'String of Pearls', price: 2800, category: 'Indoor', image: '/images/indoor/String.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '21', name: 'Echeveria / Haworthia', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '22', name: 'Kalanchoe', price: 2800, category: 'Indoor', image: '/images/indoor/Kalanchoe.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
- ];
+  { id: '23', name: 'Golden Barrel Cactus' / Haworthia', price: 2800, category: 'Indoor', image: '/images/indoor/golden.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+];
 
 interface ShopProps {
   addToCart: () => void;
