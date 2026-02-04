@@ -36,7 +36,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '21', name: 'Echeveria / Haworthia', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '22', name: 'Kalanchoe', price: 2800, category: 'Indoor', image: '/images/indoor/Kalanchoe.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '23', name: 'Golden Barrel Cactus', price: 2800, category: 'Indoor', image:'/images/indoor/golden.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
-  { id: '24', name: 'Bunny Ear / Old Man Cactussss', price: 2800, category: 'Indoor', image: '/images/indoor/Bunny.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '24', name: 'Bunny Ear / Old Man Cactusssss', price: 2800, category: 'Indoor', image: '/images/indoor/Bunny.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
