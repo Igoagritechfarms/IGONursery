@@ -24,10 +24,10 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '9', name: 'Aglaonema(Lipstick)', price: 2800, category: 'Indoor', image: '/images/indoor/aglaonema.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '10', name: 'Philodendron', price: 2800, category: 'Indoor', image: '/images/indoor/Philodendron.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '11', name: 'Bamboo Palm', price: 2800, category: 'Indoor', image: '/images/indoor/bamboo-palm.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
-  { id: '11', name: 'Spider Plant ', price: 2800, category: 'Indoor', image: '/images/indoor/Spider_Plant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
-  { id: '11', name: 'Chinese Evergreen', price: 2800, category: 'Indoor', image: '/images/indoor/Chinese_Evergreen.jpg
+  { id: '12', name: 'Spider Plant ', price: 2800, category: 'Indoor', image: '/images/indoor/Spider_Plant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '13', name: 'Chinese Evergreen', price: 2800, category: 'Indoor', image: '/images/indoor/Chinese_Evergreen.jpg
 ', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
-  { id: '11', name: 'Peace Lily', price: 2800, category: 'Indoor', image: '/images/indoor/Peace_Lily.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '14', name: 'Peace Lily', price: 2800, category: 'Indoor', image: '/images/indoor/Peace_Lily.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
