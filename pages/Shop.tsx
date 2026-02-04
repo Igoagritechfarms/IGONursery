@@ -22,6 +22,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '7', name: 'ZZ Plant', price: 2800, category: 'Indoor', image: '/images/indoor/ZZplant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '8', name: 'Money Plant (Pothos)', price: 2800, category: 'Indoor', image: '/images/indoor/Money_Plant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '9', name: 'Aglaonema(Lipstick)', price: 2800, category: 'Indoor', image: '/images/indoor/aglaonema.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '10', name: 'Philodendron', price: 2800, category: 'Indoor', image: '/images/indoor/Philodendron.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
