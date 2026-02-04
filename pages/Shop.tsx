@@ -34,7 +34,12 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '19', name: 'Jade Plant', price: 2800, category: 'Indoor', image: '/images/indoor/Jade.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '20', name: 'String of Pearls', price: 2800, category: 'Indoor', image: '/images/indoor/String.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '21', name: 'Echeveria / Haworthia', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
-
+  { id: '22', name: 'Kalanchoe', price: 2800, category: 'Indoor', image: '/images/indoor/Kalanchoe.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '23', name: 'Golden Barrel Cactus' / Haworthia', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '24', name: 'Bunny Ear / Old Man Cactus', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '25', name: 'Moon Cactus', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+   { id: '21', name: 'Fairy Castle Cactus', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '21', name: 'Aloe Vera', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 ];
 
 interface ShopProps {
