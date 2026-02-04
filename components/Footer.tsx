@@ -98,7 +98,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 uppercase tracking-widest font-bold">
           <div>© 2026 IGO AGRITECHFARM @ ALL RIGHTS RESERVED.</div>
           <div className="flex gap-8">
-            <button onClick={handleNav(Page.Home)} className="hover:text-white transition-colors">Privacy Policy</button>
+            <button onClick={handleNav(Page.Home)} className="hover:text-white transition-colors">Privacy Policyyy</button>
             <button onClick={handleNav(Page.Home)} className="hover:text-white transition-colors">Terms of Service</button>
             <button onClick={handleNav(Page.Home)} className="hover:text-white transition-colors">Shipping Info</button>
           </div>
