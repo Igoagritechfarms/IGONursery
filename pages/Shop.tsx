@@ -21,6 +21,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '6', name: 'Birds of Paradise', price: 3500, category: 'Landscape', image: 'https://images.unsplash.com/photo-1509223197845-458d87318791?auto=format&fit=crop&q=80&w=400', maintenance: 'Medium', light: 'Direct', description: 'Stunning tropical flowers. Ideal for resort-style home gardens.' },
   { id: '7', name: 'ZZ Plant', price: 2800, category: 'Indoor', image: '/images/indoor/ZZplant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '8', name: 'Money Plant (Pothos)', price: 2800, category: 'Indoor', image: '/images/indoor/Money_Plant.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '9', name: 'Aglaonema(Lipstick)', price: 2800, category: 'Indoor', image: '/images/indoor/aglaonema.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
