@@ -32,6 +32,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '17', name: 'Fiddle Leaf Fig ', price: 2800, category: 'Indoor', image: '/images/indoor/Fiddle.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '18', name: 'Ferns (Boston/Bird Nest) ', price: 2800, category: 'Indoor', image: '/images/indoor/Ferns.jfif', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '19', name: 'Jade Plant', price: 2800, category: 'Indoor', image: '/images/indoor/Jade.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '20', name: 'String of Pearls', price: 2800, category: 'Indoor', image: '/images/indoor/String.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 
 ];
 
