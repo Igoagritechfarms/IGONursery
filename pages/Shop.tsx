@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Filter, ShoppingBag, Star, ShieldCheck, Truck, RotateCcw } from 'lucide-react';
 import { Product } from '../types';
+//redeploy trigger
 
 const MOCK_PRODUCTS: Product[] = [
  {
