@@ -39,7 +39,7 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '23', name: 'Golden Barrel Cactus', price: 2800, category: 'Indoor', image:'/images/indoor/golden.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '24', name: 'Bunny Ear / Old Man Cactus', price: 2800, category: 'Indoor', image: '/images/indoor/Bunny.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '25', name: 'Moon Cactus', price: 2800, category: 'Indoor', image:'/images/indoor/Moon.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant.' },
-  { id: '26', name: 'Moon Cactus', price: 2800, category: 'Indoor', image:'/images/indoor/Moon.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant.' },
+  { id: '26', name: 'Moon', price: 2800, category: 'Indoor', image:'/images/indoor/Moon.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant.' },
 
 ];
 
