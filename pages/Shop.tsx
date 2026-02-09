@@ -1,4 +1,5 @@
 
+
 import React, { useState } from 'react';
 import { Filter, ShoppingBag, Star, ShieldCheck, Truck, RotateCcw } from 'lucide-react';
 import { Product } from '../types';
@@ -34,13 +35,34 @@ const MOCK_PRODUCTS: Product[] = [
   { id: '18', name: 'Ferns (Boston/Bird Nest) ', price: 2800, category: 'Indoor', image: '/images/indoor/Ferns.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '19', name: 'Jade Plant', price: 2800, category: 'Indoor', image: '/images/indoor/Jade.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '20', name: 'String of Pearls', price: 2800, category: 'Indoor', image: '/images/indoor/String.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
-  { id: '21', name: 'Echeveria / Haworthia', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '21', name: 'Echeveria / Haworthia', price: 2800, category: 'Indoor', image: '/images/indoor/Echeveria.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '22', name: 'Kalanchoe', price: 2800, category: 'Indoor', image: '/images/indoor/Kalanchoe.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '23', name: 'Golden Barrel Cactus', price: 2800, category: 'Indoor', image:'/images/indoor/golden.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '24', name: 'Bunny Ear / Old Man Cactus', price: 2800, category: 'Indoor', image: '/images/indoor/Bunny.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
   { id: '25', name: 'Moon Cactus', price: 2800, category: 'Indoor', image:'/images/indoor/Moon.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant.' },
-  { id: '26', name: 'Moon', price: 2800, category: 'Indoor', image:'/images/indoor/Moon.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant.' },
-
+  { id: '26', name: 'Fairy Castle Cactus', price: 2800, category: 'Indoor', image:'/images/indoor/Fairy.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '27', name: 'Aloe Vera', price: 2800, category: 'Indoor', image: '/images/indoor/Aloe.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '28', name: 'Vinca (Periwinkle) ', price: 2800, category: 'Outdoor', image: '/images/outdoor/vinca.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '29', name: 'Bougainvillea (Star/Torch)', price: 2800, category: 'Outdoor', image: '/images/outdoor/Bougainvillea.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '30', name: 'Hibiscus (Hybrid/Pune) ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Hibiscus.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '31', name: 'Ixora (Dwarf Red/Pink)  ', price: 2800, category: 'Outdoor', image: '/images/outdoor/ixora.jfif', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '32', name: 'Tecoma (Yellow Bells)', price: 2800, category: 'Outdoor', image: '/images/outdoor/Tecoma.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '33', name: 'Tabernaemontana', price: 2800, category: 'Outdoor', image: '/images/outdoor/Tabernaemontana.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '34', name: 'Lantana', price: 2800, category: 'Outdoor', image: '/images/outdoor/Lantana.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '35', name: 'Thunbergia (Clock Vine)', price: 2800, category: 'Outdoor', image: '/images/outdoor/Rangoon.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '36', name: 'Rangoon Creeper ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Nerium.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '37', name: 'Vernonia (Curtain Creeper) ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Vernonia.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '38', name: 'Bottlebrush', price: 2800, category: 'Outdoor', image: '/images/outdoor/Bottlebrush.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '39', name: 'Portulaca (Table Rose)', price: 2800, category: 'Outdoor', image: '/images/outdoor/Portulaca.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '40', name: 'Bottlebrush', price: 2800, category: 'Outdoor', image: '/images/outdoor/Bottlebrush.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '41', name: 'Dahlia', price: 2800, category: 'Outdoor', image: '/images/outdoor/Dahlia.avif', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '42', name: 'Chrysanthemum ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Chrysanthemum.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '43', name: 'Begonia ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Begonia.jfif', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '44', name: 'Geranium ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Geranium.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '44', name: 'Plumeria (Frangipani)  ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Plumeria.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '45', name: 'Paneer Rose (Pink) ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Paneer.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '46', name: 'Adenium (Desert Rose)  ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Adenium.jpg', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
+  { id: '47', name: 'Magnolia  ', price: 2800, category: 'Outdoor', image: '/images/outdoor/Magnolia.webp', maintenance: 'High', light: 'Direct', description: 'Architectural statement plant. Highly robust, acclimatized to Indian coastal conditions.' },
 ];
 
 interface ShopProps {
